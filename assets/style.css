@@ -89,12 +89,12 @@ body {
     justify-content: space-evenly;
 }
 
-a {
+.top_menu a {
     text-decoration: none;
     color: black;
 }
 
-.begin {
+#begin {
     background-color: var(--buttons);
     display: flex;
     justify-content: center;
@@ -183,8 +183,72 @@ h1 {
 .top {
     border: 1px solid lightgrey;
     text-align: center;
+    padding: 1rem;
+}
+
+.middle {
+    padding-top: 10px;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    padding-left: 26px;
+    border-bottom: 1px solid lightgrey;
+    font-size: 13px;
 }
 
 .block {
     display: block;
+}
+
+.plan_price {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.plan_time {
+    padding-bottom: 50px;
+    color: lightgrey;
+}
+
+.plan_item {
+    padding-bottom: 10px;
+}
+
+.plan_btn {
+    color: white;
+    text-decoration: none;
+    background-color: var(--buttons);
+    margin-left: 15px;
+    padding: 5px;
+}
+
+.buy {
+    padding-top: 25px;
+}
+
+.plan_line {
+    border-bottom: 1px solid lightgrey;
+    margin-right: 170px;
+    margin-top: 20px;
+}
+
+.end {
+    padding-top: 20px;
+}
+
+.plan_list {
+    padding-top: 20px;
+}
+
+.fa-check {
+    color: var(--buttons);
+}
+
+.fa-ul>li {
+    position: relative;
+    right: 32px;
+}
+
+li {
+    padding-bottom: 10px;
 }
