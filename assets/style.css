@@ -176,7 +176,7 @@ h1 {
 }
 
 /* business plan */
-.left_plan span {
+.drop_plan span {
     font-size: 15px;
 }
 
@@ -186,7 +186,7 @@ h1 {
     padding: 1rem;
 }
 
-.middle {
+.content {
     padding-top: 10px;
     border-left: 1px solid lightgrey;
     border-right: 1px solid lightgrey;
