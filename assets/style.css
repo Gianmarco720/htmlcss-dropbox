@@ -22,6 +22,7 @@ img {
 
 :root {
     --buttons: #0061FF;
+    --firstback: #B4D0E7;
 }
 
 /* #region colonne */
@@ -42,6 +43,22 @@ img {
 }
 
 .col_5 {
+    width: calc((100% / 12) * 5);
+}
+
+.col_6 {
+    width: calc((100% / 12) * 6);
+}
+
+.col_7 {
+    width: calc((100% / 12) * 7);
+}
+
+.col_8 {
+    width: calc((100% / 12) * 8);
+}
+
+.col_9 {
     width: calc((100% / 12) * 5);
 }
 /* #endregion colonne */
@@ -85,4 +102,33 @@ a {
     color: white;
     width: 50px;
     height: 25px;
+}
+/* #endregion navigazione */
+
+/* region main */
+.container_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbo {
+    background-color: var(--firstback);
+    margin-top: 15px;
+}
+
+#jumbo_btn {
+    position: relative;
+    top: 10px;
+    padding: 5px;
+    width: 56%;
+    color: white;
+    background-color: var(--buttons);
+    display: block;
+}
+
+.fa-arrow-down {
+    position: relative;
+    top: 70px;
+    font-size: 2rem;
 }
