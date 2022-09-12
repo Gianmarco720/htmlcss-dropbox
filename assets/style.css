@@ -162,8 +162,17 @@ h1 {
     width: 15px;
     border-radius: 50%;
     display: inline-block;
+    vertical-align: middle;
 }
 
 .check {
     border: 4px solid var(--buttons);
+}
+
+.uncheck {
+    border: 1px solid grey;
+}
+
+#year {
+    padding-left: 10px;
 }
