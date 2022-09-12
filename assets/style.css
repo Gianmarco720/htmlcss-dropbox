@@ -157,3 +157,13 @@ h1 {
     margin: auto;
 }
 
+.circle {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.check {
+    border: 4px solid var(--buttons);
+}
