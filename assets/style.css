@@ -20,6 +20,10 @@ img {
 }
 /* #endregion common rules */
 
+:root {
+    --buttons: #0061FF;
+}
+
 /* #region colonne */
 .col_1 {
     width: calc((100% / 12) * 1);
@@ -70,4 +74,15 @@ body {
 
 a {
     text-decoration: none;
+    color: black;
+}
+
+.begin {
+    background-color: var(--buttons);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 50px;
+    height: 25px;
 }
