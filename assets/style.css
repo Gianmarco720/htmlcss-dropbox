@@ -211,7 +211,7 @@ h1 {
 }
 
 .plan_item {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .plan_btn {
@@ -251,4 +251,12 @@ h1 {
 
 li {
     padding-bottom: 10px;
+}
+
+.enterprise_btn {
+    color: white;
+    text-decoration: none;
+    background-color: var(--buttons);
+    margin-left: 15px;
+    padding: 5px 50px;
 }
