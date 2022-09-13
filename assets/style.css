@@ -30,6 +30,7 @@ img {
     --danger1: #D5001F;
     --danger2: #FF1C1C;
     --alert: #FFD830;
+    --backgrey: #F5F5F5;
 }
 
 /* #region colonne */
@@ -360,6 +361,10 @@ li {
     width: 100%;
 }
 
-.container_logo {
-    
+.review {
+    background-color: var(--backgrey);
+}
+
+.border {
+    border-top: 1px solid lightgrey;
 }
