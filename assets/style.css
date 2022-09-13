@@ -295,3 +295,22 @@ li {
     border: 1px solid lightgrey;
     padding: 10px;
 }
+
+.enterprise {
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+.enterprise_content {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.enterprise_btn {
+    text-decoration: none;
+    background-color: var(--buttons);
+    color: white;
+    padding: 8px 25px;
+    font-size: 14px;
+}
