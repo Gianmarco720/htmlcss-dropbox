@@ -459,3 +459,19 @@ li {
     text-decoration: none;
     color: white;
 }
+/* #endregion prefooter */
+
+/* #region footer */
+footer {
+    color: lightgrey;
+    background-color: black;
+}
+
+.language {
+    font-size: 10px;
+    margin-top: 70px;
+    border-top: solid 1px lightgrey;
+    display: inline-block;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
