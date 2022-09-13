@@ -366,5 +366,17 @@ li {
 }
 
 .border {
-    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    padding: 20px;
+    margin-right: 200px;
+}
+
+.designit_logo {
+    width: 80%;
+    margin: auto;
+    font-size: 10px;
+}
+
+.designit_logo p{
+    padding-top: 40px;
 }
