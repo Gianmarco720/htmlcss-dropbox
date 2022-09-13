@@ -23,6 +23,13 @@ img {
 :root {
     --buttons: #0061FF;
     --firstback: #B4D0E7;
+    --lightsky: #0093CE;
+    --deepblue: #0D2481;
+    --darkred: #61082B;
+    --lightgreen: #A2D39B;
+    --danger1: #D5001F;
+    --danger2: #FF1C1C;
+    --alert: #FFD830;
 }
 
 /* #region colonne */
@@ -346,4 +353,13 @@ li {
 .team_title {
     padding-bottom: 50px;
     padding-top: 150px;
+}
+
+#partners {
+    padding-top: 100px;
+    width: 100%;
+}
+
+.container_logo {
+    
 }
