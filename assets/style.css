@@ -385,3 +385,29 @@ li {
     width: 200px;
     margin-top: 30px;
 }
+
+/* #region prefooter */
+.pre_footer {
+    background-color: var(--firstback);
+    height: 240px;
+}
+
+.trial {
+    padding-top: 50px;
+}
+
+.trial_title {
+    width: 40%;
+    display: inline-block;
+    color: var(--darkred);
+}
+
+.trial_btn {
+    padding: 10px 25px;
+    font-size: small;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    margin-left: 100px;
+    vertical-align: top;
+}
