@@ -276,7 +276,7 @@ li {
     padding-bottom: 10px;
 }
 
-.contact_btn {
+.callus_btn {
     color: white;
     text-decoration: none;
     background-color: var(--buttons);
@@ -314,3 +314,28 @@ li {
     padding: 8px 25px;
     font-size: 14px;
 }
+/* #endregion main section2 */
+
+/* #region main section3 */
+.contact {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.contact_content {
+    margin-top: 40px;
+}
+
+.contact_text {
+    padding-bottom: 20px;
+}
+
+.contact_btn {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid black;
+}
+/* #endregion main section3 */
+
