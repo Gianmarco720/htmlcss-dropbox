@@ -339,3 +339,11 @@ li {
 }
 /* #endregion main section3 */
 
+.team_info {
+    width: 60%;
+}
+
+.team_title {
+    padding-bottom: 50px;
+    padding-top: 150px;
+}
