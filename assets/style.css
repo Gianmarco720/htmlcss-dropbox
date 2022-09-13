@@ -356,7 +356,7 @@ li {
     padding-top: 150px;
 }
 
-#partners {
+.partners {
     padding-top: 100px;
     width: 100%;
 }
@@ -379,4 +379,9 @@ li {
 
 .designit_logo p{
     padding-top: 40px;
+}
+
+.designit_logo img {
+    width: 200px;
+    margin-top: 30px;
 }
