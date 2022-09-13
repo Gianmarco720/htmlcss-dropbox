@@ -59,7 +59,19 @@ img {
 }
 
 .col_9 {
-    width: calc((100% / 12) * 5);
+    width: calc((100% / 12) * 9);
+}
+
+.col_10 {
+    width: calc((100% / 12) * 10);
+}
+
+.col_11 {
+    width: calc((100% / 12) * 11);
+}
+
+.col_12 {
+    width: calc((100% / 12) * 12);
 }
 /* #endregion colonne */
 
@@ -106,14 +118,21 @@ body {
 /* #endregion navigazione */
 
 /* #region main section1 */
-h1 {
-    font-size: 75px;
+.jumbo h1 {
+    font-size: 70px;
     padding-top: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.jumbo a {
+    text-decoration: none;
 }
 
 .container_1 {
     display: flex;
-    justify-content: center;
+    width: 80%;
+    margin: auto;
     position: relative;
     top: 55px;
 }
@@ -134,6 +153,10 @@ h1 {
     background-color: var(--buttons);
     color: white;
     padding: 10px;
+}
+
+#jumbo_cancel {
+    color: black;
 }
 
 .fa-arrow-down {
@@ -177,7 +200,7 @@ h1 {
 
 /* business plan */
 .drop_plan span {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .top {
@@ -212,13 +235,13 @@ h1 {
 
 .plan_item {
     padding-bottom: 20px;
+    font-size: 13px;
 }
 
 .plan_btn {
     color: white;
     text-decoration: none;
     background-color: var(--buttons);
-    margin-left: 15px;
     padding: 5px;
 }
 
@@ -253,10 +276,22 @@ li {
     padding-bottom: 10px;
 }
 
-.enterprise_btn {
+.contact_btn {
     color: white;
     text-decoration: none;
     background-color: var(--buttons);
-    margin-left: 15px;
     padding: 5px 50px;
+}
+
+.space {
+    display: flex;
+    gap: 3rem;
+}
+
+.enterprise_plan_top {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    border: 1px solid lightgrey;
+    padding: 10px;
 }
