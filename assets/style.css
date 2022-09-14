@@ -116,7 +116,6 @@ body {
 }
 
 .top_nav:hover {
-    padding-bottom: 10px;
     border-bottom: 2px solid black;
 }
 
@@ -129,6 +128,11 @@ body {
     color: white;
     width: 50px;
     height: 25px;
+    transition: 0.4s;
+}
+
+#begin:hover {
+    opacity: 0.5;
 }
 /* #endregion navigazione */
 
@@ -361,6 +365,7 @@ li {
 }
 /* #endregion main section3 */
 
+/* #region partners */
 .team_info {
     width: 60%;
 }
@@ -413,6 +418,8 @@ li {
     height: 200px;
     display: flex;
     justify-content: center;
+    border: 10px solid;
+    border-color: #D1E9CD;
 }
 
 .darkred {
@@ -477,6 +484,8 @@ li {
     width: 50%;
     height: auto;
 }
+/* #endregion partners */
+
 /* #region trial */
 .trial_section {
     background-color: var(--firstback);
