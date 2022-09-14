@@ -471,6 +471,12 @@ li {
     display: flex;
     justify-content: center;
 }
+
+.container_logo img {
+    filter: invert(99%) sepia(1%) saturate(2970%) hue-rotate(166deg) brightness(120%) contrast(100%);
+    width: 50%;
+    height: auto;
+}
 /* #region trial */
 .trial_section {
     background-color: var(--firstback);
