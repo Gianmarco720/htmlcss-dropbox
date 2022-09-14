@@ -375,6 +375,7 @@ li {
 
 .review {
     background-color: var(--backgrey);
+    padding-bottom: 127px;
 }
 
 .border {
