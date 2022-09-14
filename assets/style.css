@@ -138,10 +138,8 @@ body {
 }
 
 .container_1 {
-    display: flex;
     width: 80%;
     margin: auto;
-    position: relative;
     top: 55px;
 }
 
@@ -168,8 +166,13 @@ body {
 }
 
 .fa-arrow-down {
+    color: black;
     font-size: 25px;
     padding-top: 30px;
+}
+
+.jumbo_img {
+    margin-bottom: -75px;
 }
 /* #endregion main section1 */
 
@@ -178,6 +181,10 @@ body {
     width: 50%;
     padding-top: 50px;
     margin: auto;
+}
+
+.for_you {
+    padding-top: 100px;
 }
 
 /* checkbox */
@@ -361,6 +368,11 @@ li {
     width: 100%;
 }
 
+.container_logo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .review {
     background-color: var(--backgrey);
 }
@@ -386,6 +398,71 @@ li {
     margin-top: 30px;
 }
 
+/* logo color */
+.green {
+    background-color: var(--lightgreen);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.darkred {
+    background-color: var(--darkred);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.lightsky {
+    background-color: var(--lightsky);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.danger1 {
+    background-color: var(--danger2);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.danger2 {
+    background-color: var(--danger2);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.firstback {
+    background-color: var(--firstback);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.deepblue {
+    background-color: var(--deepblue);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.alert {
+    background-color: var(--alert);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
 /* #region trial */
 .trial_section {
     background-color: var(--firstback);
@@ -475,3 +552,17 @@ footer {
     padding-top: 40px;
     padding-bottom: 50px;
 }
+footer {
+    color: lightgrey;
+    background-color: black;
+}
+
+.language {
+    font-size: 10px;
+    margin-top: 70px;
+    border-top: solid 1px lightgrey;
+    display: inline-block;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+/* #endregion footer */
