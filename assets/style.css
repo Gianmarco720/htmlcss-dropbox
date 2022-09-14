@@ -109,12 +109,19 @@ body {
     justify-content: space-evenly;
 }
 
-.top_menu a {
+.top_nav {
     text-decoration: none;
     color: black;
+    border-bottom: 2px solid transparent;
+}
+
+.top_nav:hover {
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
 }
 
 #begin {
+    text-decoration: none;
     background-color: var(--buttons);
     display: flex;
     justify-content: center;
@@ -402,7 +409,7 @@ li {
 /* logo color */
 .green {
     background-color: var(--lightgreen);
-    width: 200px;
+    width: calc(100% / 2);
     height: 200px;
     display: flex;
     justify-content: center;
@@ -410,7 +417,7 @@ li {
 
 .darkred {
     background-color: var(--darkred);
-    width: 200px;
+    width: calc(100% / 2);
     height: 200px;
     display: flex;
     justify-content: center;
@@ -418,7 +425,7 @@ li {
 
 .lightsky {
     background-color: var(--lightsky);
-    width: 200px;
+    width: calc(100% / 2);
     height: 200px;
     display: flex;
     justify-content: center;
@@ -427,7 +434,7 @@ li {
 
 .danger1 {
     background-color: var(--danger2);
-    width: 200px;
+    width: calc(100% / 2);
     height: 200px;
     display: flex;
     justify-content: center;
@@ -435,7 +442,7 @@ li {
 
 .danger2 {
     background-color: var(--danger2);
-    width: 200px;
+    width: calc(100% / 2);
     height: 200px;
     display: flex;
     justify-content: center;
@@ -443,7 +450,7 @@ li {
 
 .firstback {
     background-color: var(--firstback);
-    width: 200px;
+    width: calc(100% / 2);
     height: 200px;
     display: flex;
     justify-content: center;
@@ -451,7 +458,7 @@ li {
 
 .deepblue {
     background-color: var(--deepblue);
-    width: 200px;
+    width: calc(100% / 2);
     height: 200px;
     display: flex;
     justify-content: center;
@@ -459,7 +466,7 @@ li {
 
 .alert {
     background-color: var(--alert);
-    width: 200px;
+    width: calc(100% / 2);
     height: 200px;
     display: flex;
     justify-content: center;
