@@ -387,6 +387,13 @@ li {
     font-size: 14px;
     padding: 5px;
     border: 1px solid black;
+    transition: 0.4s;
+}
+
+.contact_btn:hover {
+    background-color: var(--buttons);
+    border: 0;
+    color: white;
 }
 /* #endregion main section3 */
 
