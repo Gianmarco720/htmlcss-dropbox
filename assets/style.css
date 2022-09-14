@@ -552,6 +552,10 @@ li {
 /* #endregion trial */
 
 /* #region FAQ */
+.faq {
+    padding-bottom: 100px;
+}
+
 .faq h2 {
     padding-bottom: 10px;
 }
@@ -564,6 +568,15 @@ li {
 .fa-angle-down {
     color: black;
     margin-left: 89px;
+    transition: 0.4s;
+}
+
+.answer {
+    display: none;
+}
+
+.question_row:hover + .answer {
+    display: block;
 }
 
 .last {
