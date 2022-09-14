@@ -170,10 +170,20 @@ body {
     background-color: var(--buttons);
     color: white;
     padding: 10px;
+    transition: 0.4s;
+}
+
+#jumbo_button:hover {
+    opacity: 0.5;
 }
 
 #jumbo_cancel {
     color: black;
+    transition: 0.4s;
+}
+
+#jumbo_cancel:hover {
+    color: white;
 }
 
 .fa-arrow-down {
