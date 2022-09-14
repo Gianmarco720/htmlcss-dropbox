@@ -542,6 +542,12 @@ li {
     text-decoration: none;
     margin-left: 100px;
     vertical-align: top;
+    transition: 0.4s;
+}
+
+.trial_btn:hover {
+    background-color: var(--buttons);
+    color: white;
 }
 /* #endregion trial */
 
