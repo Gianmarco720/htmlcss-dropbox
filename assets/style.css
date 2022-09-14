@@ -279,6 +279,11 @@ body {
     text-decoration: none;
     background-color: var(--buttons);
     padding: 5px;
+    transition: 0.4s;
+}
+
+.plan_btn:hover {
+    opacity: 0.5;
 }
 
 .buy {
@@ -317,6 +322,11 @@ li {
     text-decoration: none;
     background-color: var(--buttons);
     padding: 5px 50px;
+    transition: 0.4s;
+}
+
+.callus_btn:hover {
+    opacity: 0.5;
 }
 
 .space {
@@ -349,6 +359,11 @@ li {
     color: white;
     padding: 8px 25px;
     font-size: 14px;
+    transition: 0.4s;
+}
+
+.enterprise_btn:hover {
+    opacity: 0.5;
 }
 /* #endregion main section2 */
 
